@@ -1,0 +1,1 @@
+var Locale=Locale||{};Locale.language=Locale.language||{},Locale.languageEn={langCode:"en-US","[email_from]":"From:","[email_to]":"To:","[email_subject]":"Subject:","[email_body]":"Body:"};
