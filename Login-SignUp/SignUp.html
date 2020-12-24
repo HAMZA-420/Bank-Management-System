@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./signup.css" >  
+</head>
+  <body>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src='./login.js'></script>
+ </body>
+  <div class="background-wrap">
+    <div class="background"></div>
+  </div>
+  
+  <form id="accesspanel" action="login" method="post">
+    <h1 id="litheader">SIGN UP</h1>
+    <div class="inset">
+     <p>
+            <input type="text" name="name" placeholder="Full name" required>
+        </p>
+      <p>
+        <input type="text" name="username" id="email" placeholder="Email address" required>
+      </p>
+      <p>
+        <input type="text" name="card" id="card" placeholder="Card Number" required>
+      </p>
+      <p>
+        <input type="password" name="password" id="password" placeholder="Password" required>
+      </p>
+      <p>
+        <input type="password" name="password" id="password" placeholder="Confirm Password" required>
+      </p>
+
+      <div style="text-align: center;">
+        <div class="checkboxouter">
+          <input type="checkbox" name="rememberme" id="remember" value="Remember" required>
+          <label class="checkbox"></label>
+        </div>
+        <label for="remember">I agree on terms and conditions</label>
+      </div>
+      <input class="loginLoginValue" type="hidden" name="service" value="login" />
+    </div>
+    <p class="p-container">
+      <input type="submit" name="Login" id="go" value="Authorize">
+    </p>
+  </form>
+</html>
